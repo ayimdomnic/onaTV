@@ -11,7 +11,7 @@ class User extends Authenticatable
     use Notifiable;
 
     protected $fillable =[ 
-    'id', 'username', 'channel', 'email', 'password', 'level', 'status', 'type', 'fb_login', 'tw_login', 'go_login', 'avatar','cover',
+    'id', 'username', 'channel', 'email', 'password', 'level', 'status', 'type',  'avatar','cover',
     ];
 
     protected $hidden = [
